@@ -69,8 +69,8 @@ Before proceeding, ensure the following prerequisites are met:
 
 1. **Update Variables**:
    - Customize variables in `terraform/app/variables.tf` and related variable files to match your AWS setup.
-   - Update the `provider_credentials` variable to point to your AWS credentials file.
-   - Modify the `instance_private_key` variable to specify the path to your private key file for SSH access.
+   - Update the [`provider_credentials`](https://github.com/JL-Omega/Terraform-project/blob/main/app/variables.tf) variable to point to your AWS credentials file.
+   - Modify the [`instance_private_key`](https://github.com/JL-Omega/Terraform-project/blob/main/modules/ec2/variables.tf) variable to specify the path to your private key file for SSH access.
 
 2. **Customize Configurations**:
    - Tailor EC2 instance, EBS volume, EIP, and security group configurations to your specific requirements within respective directories.
