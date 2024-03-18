@@ -51,7 +51,7 @@ This Terraform project streamlines the setup of AWS infrastructure components co
 
 Follow the outlined steps to utilize this Terraform project effectively:
 
---
+---
 
 ### Prerequisites
 
@@ -63,7 +63,7 @@ Before proceeding, ensure the following prerequisites are met:
 2. **AWS Account**:
    - You must have access to an AWS account with appropriate permissions to provision resources.
 
---
+---
 
 ### Configuration
 
@@ -75,7 +75,7 @@ Before proceeding, ensure the following prerequisites are met:
 2. **Customize Configurations**:
    - Tailor EC2 instance, EBS volume, EIP, and security group configurations to your specific requirements within respective directories.
 
---
+---
 
 ### Execution
 
