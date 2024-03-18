@@ -53,29 +53,31 @@ Follow the outlined steps to utilize this Terraform project effectively:
 
 ---
 
-## Prerequisites
+### Prerequisites
 
 Before proceeding, ensure the following prerequisites are met:
 
 1. **Terraform Installation**:
-   - Install Terraform locally on your system.
+   - Install Terraform locally on your system. You can download it from the [official Terraform website](https://developer.hashicorp.com/terraform/install).
 
-2. **AWS Credentials**:
-   - Ensure valid AWS credentials with appropriate permissions are configured on your system.
+2. **AWS Account**:
+   - You must have access to an AWS account with appropriate permissions to provision resources.
 
 ---
 
-## Configuration
+### Configuration
 
 1. **Update Variables**:
    - Customize variables in `terraform/app/variables.tf` and related variable files to match your AWS setup.
+   - Update the `provider_credentials` variable to point to your AWS credentials file.
+   - Modify the `instance_private_key` variable to specify the path to your private key file for SSH access.
 
 2. **Customize Configurations**:
    - Tailor EC2 instance, EBS volume, EIP, and security group configurations to your specific requirements within respective directories.
 
 ---
 
-## Execution
+### Execution
 
 1. **Initialization**:
    - Initialize Terraform within the `app` directory using the command: `terraform init`.
@@ -116,12 +118,12 @@ Upon completion, follow these steps to clean up resources:
 
 ## Author
 
-- [Your Name or Organization]
+- [Jean-Luc Mpande](https://www.linkedin.com/in/jean-luc-mpande-75981a23b/)
 
 ---
 
 ## Contact
 
-For inquiries, feedback, or assistance, please reach out to [email/contact information]. Contributions and suggestions are highly appreciated!
+For inquiries, feedback, or assistance, please reach out to [LinkedIn](https://www.linkedin.com/in/jean-luc-mpande-75981a23b/). Contributions and suggestions are highly appreciated!
 
 ---
