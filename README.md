@@ -1,5 +1,8 @@
 # Terraform AWS Infrastructure Provisioning
 
+![image](https://github.com/JL-Omega/Terraform-project/assets/96908472/33cb7e3d-a73f-46b7-8dce-3ce6f92244e5)
+
+
 This Terraform project facilitates the automated provisioning of AWS resources, specifically targeting the deployment and management of EC2 instances, Elastic Block Store (EBS) volumes, Elastic IP addresses (EIPs), and associated security groups. The infrastructure setup is modularized for enhanced modularity, reusability, and maintainability.
 
 ---
